@@ -1,0 +1,83 @@
+    /* Background    */  
+    body
+        {
+            background-color: black;
+        }
+        /* Selector etiquetas h2 Izquierda*/
+        h2{
+          color: #ffff;
+          text-align: left;
+          font-size: 20px;
+        }
+         /* Selector etiquetas h4 Medio*/
+        h4
+        {
+            color: #ffff;
+            text-align: center;
+            font-size: 24px;
+        }
+         /* Selector etiquetas h5 Derecha*/
+        h5
+        {
+            text-align: right;
+            font-size: 22px;
+            color:#ffff;
+        }
+         /* Selector etiquetas Tabla1*/
+        .table1
+        {
+            border-collapse:collapse;
+            font-size: 24px;
+            color: #ffff;
+        }
+        /* Selector etiquetas Tabla1 Bordes*/
+        .td1
+        {
+            order: 2px solid white
+        }
+        table
+        /* Selector etiquetas Tabla*/
+        {
+            border-collapse:collapse;
+            font-size: 24px;
+            color: #ffff;                  
+        }
+        /* Selector etiquetas Tabla1 Bordes*/
+        td
+        {
+            border: 2px solid white
+        }
+        /* Selector clase circular--square */
+        .circular--square 
+        {
+            border-radius: 50%;
+        }
+        /* Selector clase Rectangular--squeare*/
+        .rectangle--square
+        {
+            border-radius: 25%;
+        }
+        .titulos--favoritos
+        {
+            color: #ffff;
+            font-size: 24px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .nombre--artistas
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: #ffff; 
+        }
+        #parrafo--especial 
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 22px;
+            color: #ffff;
+        }       
+        .encabezado--especial 
+        {
+        color: #ffff;
+        font-size: 28px;
+        font-family: 'Times New Roman', Times, serif;
+        } 
