@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+        <title>EVENTO TIME - ITEM 4</title>
+    </head>
+    <body>
+
+        <img id="img" src="https://i.ytimg.com/vi/YywIF6CTCGo/maxresdefault.jpg" />
+
+    <script>
+
+
+        var imgs = [
+         
+          
+         "https://i.ytimg.com/vi/YywIF6CTCGo/maxresdefault.jpg",
+          "https://wccftech.com/wp-content/uploads/2018/04/Hellblade-Senua%E2%80%99s-Sacrifice-Xbox-One-X-2060x1159.jpg",
+          "https://www.guiltybit.com/wp-content/uploads/2018/03/hellblade-para-xbox-one.jpg",
+         "https://www.comunidadxbox.com/wp-content/uploads/Hellblade-Comunidad-Xbox.jpg",
+         "https://www.navigames.es/wp-content/uploads/2017/08/Hellblade_-Senuas-Sacrifice%E2%84%A2_20170815161838.jpg"
+        ];
+
+        var count = 0;
+
+        setInterval(chgimg,1700);
+
+        function chgimg(){
+            var img = document.querySelector("#img");
+         img.src = imgs[count++];
+            if(count>=imgs.length) count = 0;
+    }
+
+
+
+    </script>
+
+
+
+    </body>
+</html>

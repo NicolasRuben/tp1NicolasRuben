@@ -1,51 +1,56 @@
     /* Background    */  
     body
         {
-            background-color: black;
+            background-color: teal;
         }
+        h1{
+            color: black;
+            text-align: left;
+            font-size: 45px;
+          }
         /* Selector etiquetas h2 Izquierda*/
         h2{
-          color: #ffff;
+          color:black;
           text-align: left;
           font-size: 20px;
         }
          /* Selector etiquetas h4 Medio*/
         h4
         {
-            color: #ffff;
+            color: black;
             text-align: center;
-            font-size: 24px;
+            font-size: 20px;
         }
          /* Selector etiquetas h5 Derecha*/
         h5
         {
-            text-align: right;
-            font-size: 22px;
-            color:#ffff;
+            text-align: left;
+            font-size: 24px;
+            color:black;
         }
          /* Selector etiquetas Tabla1*/
         .table1
         {
             border-collapse:collapse;
-            font-size: 24px;
-            color: #ffff;
+            font-size: 25px;
+            color: black;
         }
         /* Selector etiquetas Tabla1 Bordes*/
         .td1
         {
-            order: 2px solid white
+            order: 5x solid black
         }
         table
         /* Selector etiquetas Tabla*/
         {
             border-collapse:collapse;
-            font-size: 24px;
-            color: #ffff;                  
+            font-size: 25px;
+            color: black;                  
         }
         /* Selector etiquetas Tabla1 Bordes*/
         td
         {
-            border: 2px solid white
+            border: 2px solid black
         }
         /* Selector clase circular--square */
         .circular--square 
@@ -59,7 +64,7 @@
         }
         .titulos--favoritos
         {
-            color: #ffff;
+            color: black;
             font-size: 24px;
             font-family: 'Times New Roman', Times, serif;
         }
@@ -67,17 +72,87 @@
         {
             font-family: 'Times New Roman', Times, serif;
             font-size: 24px;
-            color: #ffff; 
+            color:black; 
         }
         #parrafo--especial 
         {
             font-family: 'Times New Roman', Times, serif;
             font-size: 22px;
-            color: #ffff;
+            color: black;
         }       
         .encabezado--especial 
         {
-        color: #ffff;
+        color: black;
         font-size: 28px;
         font-family: 'Times New Roman', Times, serif;
         } 
+        /* botón */
+ 	
+         #main-container{
+  
+            text-align: center;
+            font-family: Arial;
+         }
+  
+        .btn{
+        border-radius: 25px;
+        font-size: 25px;
+        color: black;
+        display: inline-block;
+         background-color: red;
+        box-shadow: white;
+    }
+    
+
+
+.botones {
+  display: flex;
+  width: 1000px;
+  height: 1000px;
+}
+
+
+
+
+.s-key, .e-key, .g-key, .a-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  width: 1000px;
+  height: 100px;
+  border: 3px solid #000;
+}
+
+
+
+
+.s-key {
+    margin-left: 300px;
+    margin-right: 5px;
+  }
+  
+  .e-key {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  
+  .g-key {
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  .a-key {
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  /* FOTOS */
+#img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    

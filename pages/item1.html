@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<html>
+		<head>
+		<title>TRIVIA - ITEM 1</title>
+<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+		<script>
+		
+		function resultado() {
+		var p1, p2, p3, p4, nota, respuestas;
+		 
+	
+		if (document.getElementById('p14').checked==true) {p1=20}
+		else {p1=0}
+		if (document.getElementById('p22').checked==true) {p2=20}
+		else {p2=0}
+		if (document.getElementById('p33').checked==true) {p3=20}
+		else {p3=0}
+		if (document.getElementById('p41').checked==true) {p4=20}
+		else {p4=0}
+		if (document.getElementById('p54').checked==true) {p5=20}
+		else {p5=0}
+		
+		respuestas= "\n Pregunta 1 - Mortal Kombat " + "\n Pregunta 2 - Senua " + "\n Pregunta 3 - Speed Racer" + "\n Pregunta 4 - Kojima Productions" + "\n Pregunta 5 - 1989";
+		nota=p1+p2+p3+p4+p5;
+		alert("Puntos: "  + nota)
+		alert ("Respuestas: " + respuestas)
+		
+		location.reload();
+		}
+		</script>
+		</head>
+		<body>
+		<h1>Trivia Nicolás Ruben</h1>
+		<hr>
+		<p><h4>¿Que saga de videojuego creo Ed Boon?.</h4></p>
+	
+		<p onclick=><h4><input type="checkbox" name="pregunta1" id="p11"> The king of fighters</p></h4>
+		<p onclick=><h4><input type="checkbox" name="pregunta1" id="p12"> Street Fighter.</p></h4>
+		<p onclick=><h4><input type="checkbox" name="pregunta1" id="p13"> Tekken.</p></h4>
+		<p onclick=><h4><input type="checkbox" name="pregunta1" id="p14"> Mortal Kombat.</h4></p>
+		
+		<hr>
+
+		<p><h4>¿Como se llama la personaje pricipal de Hellblade?.</p></h4>
+		<p onclick=><h4><input type="checkbox" name="pregunta2" id="p21"> Lara Croft.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta2" id="p22"> Senua.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta2" id="p23"> Ellie.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta2" id="p24"> Jade.</h4></p>
+		
+		<hr>
+			
+		<p><h4>¿Que sobrenombre tiene Meteoro?</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta3" id="p31"> Rex racer.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta3" id="p32"> Racer X.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta3" id="p33"> Speed Racer.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta3" id="p34"> Chispita Racer.</h4></p>
+		<hr>
+			
+		<p><h4>¿Quien desarrollo Death Stranding?.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p41"> Kojima Productions.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p42"> Konami.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p43"> Rockstar Games.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p44"> Naughty Dog.</h4></p>
+		
+		<hr>
+		<p><h4>¿En que año se lanzo SEGA Mega Drive?.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p51"> 1988.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p52"> 1991.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p53"> 1990.</h4></p>
+		<p onclick=><h4><input type="checkbox" name="pregunta4" id="p54"> 1989.</h4></p>
+		
+		<hr>
+
+		<p><h4>Una vez completada la trivia, pulsar sobre Enviar para ver la puntuación lograda y las repuestas.</h4></p>
+		
+		<div id="main-container">
+		<p><h4><input class="btn" type="button" value="Enviar"  onclick="resultado()"/></h4></p>
+		
+		</div>
+		</body>
+		</html>
